@@ -18,7 +18,7 @@ export default function Project() {
     }, [])
 
     return (
-        <main className="bg-green-100 min-h-screen p-12">
+        <main className="bg-gray-100 min-h-screen p-12">
             <section className="container mx-auto">
                 <h1 className="text-5xl flex justify-center cursive">My Projects</h1>
                 <h2 className="text-lg text-gray-600 flex justify-center mb-12">Welcome to my projects page!</h2>
@@ -44,7 +44,7 @@ export default function Project() {
                                 <p className="my-6 text-lg text-gray-700 leading-relaxed">
                                     {project.description}
                                 </p>
-                                <a href={project.link} rel="noopener noreferrer" target="_blank" className="text-red-500 font-bold hover:underline hover:text-red-400 text-xl">
+                                <a href={project.link} rel="noopener noreferrer" target="_blank" className="text-blue-500 font-bold hover:underline hover:text-blue-400 text-xl">
                                     View The Project{" "}
                                     <span role="img" aria-label="right pointer">
                                         👉
