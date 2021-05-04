@@ -25,11 +25,11 @@ export default {
             type: "string",
             options: {
                 list: [
-                    { value: "personal", title: "Personal"},
-                    { value: "client", title: "Client"},
-                    { value: "school", title: "School"},
-                ]
-            }
+                    { value: "personal", title: "Personal" },
+                    { value: "client", title: "Client" },
+                    { value: "school", title: "School" },
+                ],
+            },
         },
         {
             name: "link",
@@ -44,8 +44,8 @@ export default {
                 },
             ],
             options: {
-                layout: "tags"
-            }
-        }
-    ]
+                layout: "tags",
+            },
+        },
+    ],
 }
